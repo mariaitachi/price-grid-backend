@@ -36,7 +36,7 @@ export class PricesService {
       });
     }
 
-    // if height exists
+    // if height not exists
     let heightIndex = this.priceGrid.heights.indexOf(height);
     if (heightIndex === -1) {
       this.priceGrid.heights.push(height);
