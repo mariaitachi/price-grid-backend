@@ -7,12 +7,13 @@ import { AddSinglePriceDto } from './dto/add-single-price.dto';
 @Injectable()
 export class PricesService {
   private priceGrid: PriceGrid = {
-    widths: [24, 30, 36, 48, 60],
-    heights: [36, 48, 60],
+    widths: [24, 30, 36, 48, 60, 65, 72],
+    heights: [36, 48, 60, 72],
     prices: [
-      { height: 36, values: [239, 269, 307, 377, 450] },
-      { height: 48, values: [272, 312, 357, 447, 536] },
-      { height: 60, values: [300, 345, 410, 520, 600] },
+      { height: 36, values: [239, 269, 307, 377, 450, 500, 580] },
+      { height: 48, values: [272, 312, 357, 447, 536, 645, 700] },
+      { height: 60, values: [300, 345, 410, 520, 600, 695, 760] },
+      { height: 72, values: [350, 380, 450, 560, 670, 745, 860] },
     ],
   };
 
